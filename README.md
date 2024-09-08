@@ -4,7 +4,7 @@ Using Arduino-based Digispark, it transfers the SSID and password information of
 
 #Dil/Language
 
-Türkçe
+[Türkçe](https://github.com/ahmkrby/digispark_wifi_stealer/blob/main/README.md#nas%C4%B1l-kullan%C4%B1l%C4%B1r)
 
 [English](https://github.com/ahmkrby/digispark_wifi_stealer/blob/main/README.md#how-to-use-it)
 
