@@ -1,5 +1,6 @@
 # digispark_wifi_stealer
 Arduino tabanlı Digispark kullanarak bilgisayarınızdaki kayıtlı Wi-Fi ağlarının SSID ve şifre bilgilerini bir FTP sunucusuna aktarır.
+
 Using Arduino-based Digispark, it transfers the SSID and password information of registered Wi-Fi networks on your computer to an FTP server.
 
 # Dil/Language
