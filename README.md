@@ -6,7 +6,7 @@ Using Arduino-based Digispark, it transfers the SSID and password information of
 
 Türkçe
 
-[English](https://github.com/ahmkrby/digispark_wifi_stealer/main/README.md#how-to-use-it)
+[English](https://github.com/ahmkrby/digispark_wifi_stealer/blob/main/README.md#how-to-use-it)
 
 
 # Nasıl kullanılır?
